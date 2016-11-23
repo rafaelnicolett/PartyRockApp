@@ -14,6 +14,8 @@
 		9C37AD911DE521F800A3BD09 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C37AD8F1DE521F800A3BD09 /* LaunchScreen.storyboard */; };
 		9C37AD9D1DE528A500A3BD09 /* still time.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9C37AD9C1DE528A500A3BD09 /* still time.ttf */; };
 		9C37AD9F1DE52A3600A3BD09 /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C37AD9E1DE52A3600A3BD09 /* VideoViewController.swift */; };
+		9C37ADA11DE52C6800A3BD09 /* PartyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C37ADA01DE52C6800A3BD09 /* PartyTableViewCell.swift */; };
+		9C37ADA31DE52E2200A3BD09 /* PartyRock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C37ADA21DE52E2200A3BD09 /* PartyRock.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		9C37AD921DE521F800A3BD09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9C37AD9C1DE528A500A3BD09 /* still time.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "still time.ttf"; sourceTree = "<group>"; };
 		9C37AD9E1DE52A3600A3BD09 /* VideoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoViewController.swift; sourceTree = "<group>"; };
+		9C37ADA01DE52C6800A3BD09 /* PartyTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PartyTableViewCell.swift; sourceTree = "<group>"; };
+		9C37ADA21DE52E2200A3BD09 /* PartyRock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PartyRock.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +87,7 @@
 		9C37AD991DE5235500A3BD09 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				9C37ADA01DE52C6800A3BD09 /* PartyTableViewCell.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -90,6 +95,7 @@
 		9C37AD9A1DE5235C00A3BD09 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				9C37ADA21DE52E2200A3BD09 /* PartyRock.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -178,6 +184,8 @@
 			files = (
 				9C37AD891DE521F800A3BD09 /* MainVC.swift in Sources */,
 				9C37AD871DE521F800A3BD09 /* AppDelegate.swift in Sources */,
+				9C37ADA31DE52E2200A3BD09 /* PartyRock.swift in Sources */,
+				9C37ADA11DE52C6800A3BD09 /* PartyTableViewCell.swift in Sources */,
 				9C37AD9F1DE52A3600A3BD09 /* VideoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
