@@ -90,7 +90,7 @@
                                                     </constraints>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Where the sun goes" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RkD-q1-QSZ">
-                                                    <rect key="frame" x="84" y="23" width="228" height="39"/>
+                                                    <rect key="frame" x="84" y="24" width="228" height="38"/>
                                                     <fontDescription key="fontDescription" name="StillTime-Regular" family="Still Time" pointSize="32"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
@@ -158,14 +158,30 @@
                                     <constraint firstAttribute="height" constant="220" id="5eg-TL-N9P"/>
                                 </constraints>
                             </webView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Where the sun goes" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fZR-om-0bI">
+                                <rect key="frame" x="16" y="228" width="288" height="39"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="39" id="kEg-7g-SK5"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="StillTime-Regular" family="Still Time" pointSize="32"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.8245847463" green="0.8245847463" blue="0.8245847463" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="fZR-om-0bI" firstAttribute="trailing" secondItem="vej-3q-1wZ" secondAttribute="trailingMargin" id="Er8-ZP-pju"/>
+                            <constraint firstItem="fZR-om-0bI" firstAttribute="leading" secondItem="vej-3q-1wZ" secondAttribute="leadingMargin" id="MJ6-DT-V2Z"/>
+                            <constraint firstItem="fZR-om-0bI" firstAttribute="top" secondItem="mQs-nh-AOR" secondAttribute="bottom" constant="8" id="bwG-1O-IUP"/>
                             <constraint firstItem="mQs-nh-AOR" firstAttribute="top" secondItem="vej-3q-1wZ" secondAttribute="top" id="haM-7f-BCI"/>
                             <constraint firstAttribute="trailing" secondItem="mQs-nh-AOR" secondAttribute="trailing" id="lQg-ac-lAc"/>
                             <constraint firstItem="mQs-nh-AOR" firstAttribute="leading" secondItem="vej-3q-1wZ" secondAttribute="leading" id="ylC-Yj-qNb"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="titleLbl" destination="fZR-om-0bI" id="PNA-qj-KoW"/>
+                        <outlet property="webView" destination="mQs-nh-AOR" id="mLw-lT-b3n"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Kq5-nM-mKy" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
